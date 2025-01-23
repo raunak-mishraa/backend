@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "build": "echo 'Running production build script...'"
-  },
+  "start": "node src/index.js", 
+  "dev": "nodemon src/index.js", 
+  "build": "echo 'Running production build script...'"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
