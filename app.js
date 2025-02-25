@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 
 
 app.use(cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:8000',
+    origin: '*',
     credentials: true,
 }));
 app.use(express.json({ limit: '10kb' }));
